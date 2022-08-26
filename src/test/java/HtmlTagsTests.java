@@ -67,4 +67,9 @@ public class HtmlTagsTests extends BaseTest {
         Assert.assertEquals(inputField.getAttribute("value"), "-2", "Should be -2");
         Thread.sleep(3000);
     }
+
+    @Test
+    public void someTest(){
+        System.out.println("hi");
+    }
 }
